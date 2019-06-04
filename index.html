@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lanquiz</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <header>
+      <div id="head">
+        <div id="logo">
+          <h1>Lanquiz</h1>
+        </div>
+        <div id="search">
+          <form action="">
+            <span>
+              <input type="text">
+            </span>
+            <button id="search_btn"><img src="search_icon.png" alt="serach button image"></button>
+          </form>
+        </div>
+        <div id="sign_btns">
+          <button id="login-button">로그인</button>
+          <button id="signUp-button">회원가입</button>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul id="navi-bar">
+        <li><a href="">단어장</a></li>
+        <li><a href="">나만의 단어장</a></li>
+        <li><a href="">퀴즈</a></li>
+        <li><a href="">마이페이지</a></li>
+      </ul>
+    </nav>
+    <div id="make-voca">
+      <div>
+        <h2>나만의 단어장 만들기</h2>
+      </div>
+      <form action="" id="voca">
+        <input type="text" name="vocaTitle" id="voca-title" value="단어장 제목">
+        <input type="submit" id="sub-button" value="만들기">
+
+        <div class="words">
+          <div>
+            <h2>1.</h2>
+          </div>
+          <div class="wordNmean">
+            <input type="text" name="word_1" class="word">
+            <input type="text" name="mean_1" class="mean">
+          </div>
+          <div>
+            <button><img src="" alt=""></button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>

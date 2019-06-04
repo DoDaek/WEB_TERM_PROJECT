@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header #logo {
+    display: inline-block; 
+    vertical-align: -10%;
+}
+
+header #logo h1{
+    color: cornflowerblue;
+    margin: auto 0;
+}
+
+header #search {
+    position: relative;
+    display: inline-block;
+    width: 521px;
+    margin-left: 20px;
+}
+
+header #search span {
+    display: inline-block;
+    width: 470px;
+    height: 45px;
+    border: 2px solid cornflowerblue;
+    background-color: #fff;
+}
+
+header #search input {
+    margin: 12px 0 0 9px;
+    width: 405px;
+    height: 23px;
+    outline: 0;
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 0;
+    border: 0;
+}
+
+header #search_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: visible;
+    background-color: cornflowerblue;
+    width: 49px;
+    height: 49px;
+    border: 0;
+}
+
+header #search_btn img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: auto;
+}
+
+header #sign_btns {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+header #sign_btns button:first-child {
+    border: 0;
+    background-color: #fff;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header #sign_btns button:last-child {
+    border: 0;
+    background-color: #fff;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#signUp-button {
+    margin-left: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav #navi-bar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+nav li {
+    /* float: left; */
+    display: inline-block;
+    padding: 0 30px;
+}
+
+nav li a {
+    width: 150px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav li a:hover {
+    background-color: #fff;
+    color: cornflowerblue;
+}
+
+#make-voca {
+    margin: 0px 30px 0px 30px;
+}
+
+#make-voca h2 {
+    margin-bottom: 40px;
+}
+
+#make-voca form #voca-title {
+    width: 350px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    border: 0;
+    color: gray;
+    border-bottom: 2px solid black;
+}
+
+#make-voca form #sub-button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+#make-voca form .words {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    position: relative;
+}
+
+#make-voca form .words .wordNmean {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+
+#make-voca form .words .word, .mean {
+    width: 350px;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+#make-voca form .words .mean {
+    margin-left: 30px;
+}
